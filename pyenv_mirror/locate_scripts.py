@@ -22,7 +22,7 @@ def check_directory(path=None):
     # small hack.
     test_script_path = os.path.join(
         path,
-        '2.7',
+        '2.7.0',
     )
     if os.path.isfile(test_script_path):
         return path
